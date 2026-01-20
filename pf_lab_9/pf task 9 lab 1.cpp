@@ -2,14 +2,13 @@
 using namespace std;
 int main()
 {
-   	int i=1;
-   	int N;
-   	cout<<"enter ineger"<<endl;
-   	cin>>N;
-   	while(i <= N)
-   	{
-   		cout<<i<<endl;
-   		i++;
-	   }
-	   return 0;
+	int a;
+	cout<<"enter a number"<<endl;
+	cin>>a;
+	cout<<"number from 1 to "<<a<<":"<<endl;
+	int i =1;
+	while(i<=a){
+		cout<<i;
+		++i;
+	}
 }
